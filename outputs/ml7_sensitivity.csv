@@ -1,0 +1,4 @@
+purchase_value,hit_rate_at_10,baseline_hit_rate
+log,0.2107,0.2703
+binary,0.2248,0.2703
+count,0.1312,0.2703

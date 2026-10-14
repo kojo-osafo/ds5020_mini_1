@@ -1,0 +1,8 @@
+rule,rows_removed,rows_remaining,reason,pct_of_raw_removed
+Raw data (start),0,1067371,,0.0
+1. Cancellation invoices (Invoice starts with 'C'),19494,1047877,A cancelled order is not a purchase.,1.83
+2. Quantity <= 0,3457,1044420,Returns/adjustments are not purchases.,0.32
+3. Price <= 0,2750,1041670,Zero/negative price lines are not real sales.,0.26
+4. Non-product StockCode (not 5 digits + optional letters),4793,1036877,"POST, M, D, DOT, BANK CHARGES, gift vouchers etc. are not products.",0.45
+5. Missing Customer ID,234245,802632,No customer row to put the purchase in (~1/5 of raw lines).,21.95
+"(info) Exact duplicate lines, NOT removed",0,802632,"11,930 duplicates kept; they add quantity, not extra columns.",0.0

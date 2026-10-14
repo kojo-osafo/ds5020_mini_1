@@ -1,0 +1,4 @@
+model,hit_rate_at_10
+Truncated SVD,0.2107
+PCA,0.207
+Best sellers,0.2703

@@ -1,0 +1,9 @@
+{
+  "raw_load_s": 0.15,
+  "raw_load_from_cache": true,
+  "clean_s": 1.32,
+  "split_s": 0.07,
+  "matrix_s": 0.88,
+  "heldout_s": 0.04,
+  "matrix_rebuild_s": 2.2
+}

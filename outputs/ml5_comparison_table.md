@@ -1,0 +1,10 @@
+| Measure | PCA | Truncated SVD |
+|---|---|---|
+| k used | 300 | 300 |
+| Fit time (seconds) | 1.09 | 2.57 |
+| Peak memory during fit (MB) | 35.7 | 42.5 |
+| Size of stored factors (MB) | 22.01 | 21.98 |
+| Variance explained / relative reconstruction error | 66.1% variance explained; rel. error 0.570 | rel. error 0.571 (67.4% of energy kept) |
+| Hit rate at 10 on held-out purchases | 20.7% | 21.1% |
+| Best-seller baseline hit rate at 10 | 27.0% | 27.0% |
+| What component 1 represents (auto-draft: rewrite in your words) | Main way customers differ from the average customer. Pushes up: PACK OF 72 RETROSPOT CAKE CASE; JUMBO BAG RED RETROSPOT; LUNCH BAG RED RETROSPOT; WHITE HANGING HEART T-LIGHT HO. Pushes down: AMBER GLASS TASSLE BAG CHARM; PURPLE GLASS TASSLE BAG CHARM; BROWN ANTIQUE CUBE CANDLE; WHITE HYDRANGEA ART FLOWER. | Overall purchase volume: 100% of products load with the same sign; score tracks number of products bought (r=0.89) and total value (r=0.97). |

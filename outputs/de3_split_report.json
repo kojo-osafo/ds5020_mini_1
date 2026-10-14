@@ -1,0 +1,16 @@
+{
+  "cutoff_date": "2011-10-09",
+  "train_lines": 683670,
+  "products_before_filter": 4529,
+  "products_after_filter": 3686,
+  "min_customers": 10,
+  "purchase_value": "log",
+  "test_lines": 118962,
+  "test_unique_customer_product_pairs": 95278,
+  "dropped_customer_not_in_train": 13840,
+  "dropped_product_not_in_train_catalogue": 4762,
+  "dropped_already_bought_in_train": 31754,
+  "heldout_pairs": 44922,
+  "test_customers_evaluated": 1913,
+  "test_customers_total": 2423
+}
