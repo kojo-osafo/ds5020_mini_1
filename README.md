@@ -18,16 +18,15 @@ pip install -r requirements.txt
 python src/build_matrix.py        # DE1-DE6: profile, clean, split, sparse matrix, reports
 python src/ml_analysis.py         # ML1-ML7: k sweep, recommender, evaluation, PCA vs SVD, segments
 ```
-Seed is fixed at 42. `notebooks/analysis.ipynb` runs the same steps top to bottom and shows the results.
+Seed is fixed at 42. `analysis.ipynb` runs the same steps top to bottom and shows the results.
 
 ## Layout
-`src/` code | `data/` raw and processed data (git-ignored; contains customer IDs, never share)
+`src/` code | `data/` raw and processed data (git-ignored)
 | `outputs/` tables, figures, memo, slides (no customer IDs) | `decision_log.md` | `contribution_log.md`
 
 ## Roles
 As the sole engineer, I shouldered all roles and responsibilities for this project.
 
-
-## Renaming customer groups
+## How to rename customer groups
 Edit `outputs/segment_names.json`, e.g. `{"0": "UK bulk wholesalers", "1": "..."}`, then rerun
-`ml_analysis.py`, `make_memo.py` and `make_slides.py`.
+`ml_analysis.py`
